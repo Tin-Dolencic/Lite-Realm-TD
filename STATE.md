@@ -2,9 +2,9 @@
 
 ## Projekt
 
-- **Naziv**: _TBD_
+- **Naziv**: Lite-Realm-TD
 - **Tip**: Seminar | Zadaća | Thesis
-- **Kolegij**: _TBD_
+- **Kolegij**: Lite-Realm-TD
 - **LaTeX format**: FSB Seminar
 
 ## Trenutni fokus
