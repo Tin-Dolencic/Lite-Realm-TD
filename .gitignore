@@ -1,0 +1,64 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+
+# RAG vector store (auto-generated, large)
+.ai/rag/db/
+.ai/rag/parsed/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# LaTeX build directories (build-docs scripts + LaTeX Workshop)
+docs/**/build/
+
+# Generated PDFs in docs build (Tectonic outputs next to source)
+docs/**/*.pdf
+
+# Generated PDFs in dist (built by CI or scripts)
+dist/**/*.pdf
+
+# Bootstrap marker
+.ai/.bootstrapped
+
+# Personal notes
+IDEAS.md
+TODO.md
+
+# Test / sandbox directories
+TestRealm/
+
+# Claude Code git worktrees — runtime, never tracked
+.claude/worktrees/
+
+# data_fetcher staging area: binaries stay local until promoted to data/sources/;
+# the catalog (STAGING_CATALOG.md) and manifest.yaml stay tracked for review.
+data/staging/**/*.pdf
+data/staging/**/*.docx
+data/staging/**/*.pptx
+data/staging/**/*.xlsx
+data/staging/**/*.html
+data/staging/**/*.zip
